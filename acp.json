@@ -1,0 +1,20 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "biasdetectionof",
+    "description": "EU AI Act Article 10 \u2014 data and model bias detection.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://biasdetectionof.ai"
+      }
+    ],
+    "capabilities": [
+      "bias-detection-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
