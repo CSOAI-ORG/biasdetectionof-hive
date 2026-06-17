@@ -1,0 +1,35 @@
+{
+  "name": "biasdetectionof.ai",
+  "title": "Bias Detection of AI — Fairness Auditing",
+  "description": "Automated bias detection, fairness metrics, and inclusive AI auditing across MEOK member deployments.",
+  "cluster": "COMPLIANCE",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://biasdetectionof.ai/",
+  "agent": {
+    "protocol": "model-context-protocol",
+    "version": "1.0",
+    "mcp_endpoint": "https://mcp.biasdetectionof.ai/v1",
+    "capabilities": ["reasoning", "tool_use", "context_management", "multi_agent_coordination"],
+    "authentication": {
+      "scheme": "oauth2",
+      "token_url": "https://auth.sov3.meok.ai/oauth/token",
+      "authorization_url": "https://auth.sov3.meok.ai/oauth/authorize",
+      "scopes": ["agent:read", "agent:write", "mcp:invoke"]
+    },
+    "identity": {
+      "did": "did:meok:biasdetectionof.ai",
+      "verification_method": "did:meok:biasdetectionof.ai#keys-1"
+    }
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "MEOK Empire",
+    "url": "https://meok.ai/"
+  },
+  "clusterOf": {
+    "@type": "Organization",
+    "name": "COMPLIANCE",
+    "url": "https://biasdetectionof.ai/"
+  }
+}

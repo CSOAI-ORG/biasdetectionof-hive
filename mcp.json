@@ -1,0 +1,14 @@
+{
+  "name": "biasdetectionof.ai",
+  "title": "Bias Detection of AI — Fairness Auditing",
+  "description": "Automated bias detection, fairness metrics, and inclusive AI auditing across MEOK member deployments.",
+  "cluster": "COMPLIANCE",
+  "servers": [
+        { "id": "bias-scanner-mcp.sov3.meok.ai", "url": "https://bias-scanner-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "fairness-mcp.sov3.meok.ai", "url": "https://fairness-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "inclusion-mcp.sov3.meok.ai", "url": "https://inclusion-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
